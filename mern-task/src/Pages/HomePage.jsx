@@ -13,13 +13,13 @@ const HomePage = () => {
   //   }
   // }, [authToken]);
 
-  useEffect(() => {
-    if (!authToken) {
-      history.push("/signup");
-    } else {
-      history.push("/home");
-    }
-  }, [authToken, history]);
+  // useEffect(() => {
+  //   if (!authToken) {
+  //     history.push("/signup");
+  //   } else {
+  //     history.push("/home");
+  //   }
+  // }, [authToken, history]);
 
   return (
     <div className="home-page">
