@@ -1,0 +1,61 @@
+.login-main {
+  height: 100vh;
+}
+.Login-image-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.login-input-field {
+  padding: 20px 15px 20px 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.col-6 {
+  display: grid;
+  place-items: center;
+}
+
+.Forget-Password {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.custom-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 6px;
+  border: solid 2px #dedede;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: blue;
+}
+.custom-input::placeholder {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.login-input-field:focus {
+  border-color: blue !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.have-account {
+  margin-bottom: 1rem;
+  margin-left: 0.4rem;
+  font-size: 20px;
+  font-weight: 200;
+}
